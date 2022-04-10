@@ -19,21 +19,26 @@
 
 <body>
 
-    <h1 class="site-title text-center">surfs up</h1>
+    <p class="site-title text-center py-4">surfs up</p>
 
-    <div class="col-12 my-5 border">
-        <div class="row">
-            <div class="col-3 border">
-                <p>Enter City or Zip Code</p>
+    <div class="col-11 my-3 top-row">
+        <div class="row justify-content-between">
+            <div class="col-3 p-3 mx-2 location">
+                <h5>Enter City or Zip Code</h5>
                 <input class="zip-entered"></input>
                 <!-- wave or shaka emoji in button? -->
-                <button>search</button>
+                <button class="my-2">search</button>
 
-                <p>Previously Viewed</p>
+
+                <h5 class="pt-5">Previously Viewed</h5>
                 <!-- will render via js -->
+                <input class="previous-location my-1" placeholder="City 1"></input>  
+                <input class="previous-location my-1" placeholder="City 2"></input>  
+                <input class="previous-location my-1" placeholder="City 3"></input>  
+                <input class="previous-location my-1" placeholder="City 4"></input>  
             </div>
 
-            <div class="col-7 border">
+            <div class="col-8 px-5 py-3 mx-2 location-data">
                 <h3 class="text-center">Surf Report for (City/Zip)</h3>
                 <!-- will remove later and render via js-->
                 <p>Temperature:</p>
@@ -48,8 +53,8 @@
     </div>
 
     <!-- Hourly Surf Report -->
-    <div class="col-12 my-5 border">
-        <div class="col-12 border">
+    <div class="col-11 my-5 bottom-row">
+        <div class="col-12 border hourly-report">
             <h3 class="text-center">Hourly Surf Report for (City/Zip)</h3>
         </div>
 

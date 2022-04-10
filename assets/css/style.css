@@ -1,3 +1,40 @@
 * {
     font-family: 'DM Serif Display', serif;
 }
+
+body {
+    background-image: url(../images/waves.png);
+    background-size: cover;
+    background-position: center; 
+}
+
+.site-title {
+    color: white;
+    font-size: 4rem;
+}
+
+.top-row, .bottom-row {
+    margin: 0 auto;
+}
+
+.location {
+    max-height: 25rem;
+}
+
+.location-data {
+    max-height: 15rem;
+    align-self: right;
+}
+
+.hourly-report {
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+.location, .location-data, .hourly-report {
+    background-color: #0C4436;
+    opacity: 80%;
+    color: white;
+    border-radius: 1rem;
+    border-style: double;
+}
